@@ -22,5 +22,5 @@ export const reducer=(state, action)=> {
 	throw Error('Unknown action.');
 }
 
-export const initialState={page:0, totalPage:0,limit:10};
+export const initialState={page:0, totalPage:0,limit:12};
 

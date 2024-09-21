@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from './page/list';
+import HomeLayoud from './page/home';
 
 const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Layout/>} />
+        <Route path="/" element={<HomeLayoud/>} />
       </Routes>
     </Router>
   );

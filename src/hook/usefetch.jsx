@@ -19,7 +19,7 @@ export const useFetch=(url,dispatch)=>{
 			setError(err.message)
 		});
 		
-	},[]);
+	},[url]);
 	
 	return {data,loading,error};
 };
